@@ -11,7 +11,7 @@ Esta página tem como objetivo facilitar o acesso a contatos de emergência loca
 
 ## Estrutura do Projeto
 - `index.html` – Página principal com os contatos clicáveis.
-- (Opcional) `styles.css`
+- `styles.css`
 - `README.md` – Documentação do projeto.
 
 ## Como Visualizar a Página
