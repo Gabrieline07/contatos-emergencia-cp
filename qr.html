@@ -5,131 +5,134 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contatos de Emergência - Carapicuíba</title>
   <style>
-    /* Reset de margens e preenchimentos */
-    * {
+    /* Reset básico */
+    *, *::before, *::after {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    /* Corpo da página */
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
-      background-color: #f4f4f4;
-      color: #333;
     }
 
-    /* Cabeçalho */
     header {
       background-color: #007bff;
-      color: white;
+      color: #fff;
       text-align: center;
-      padding: 10px 0;
+      padding: 20px 10px;
     }
 
-    /* Conteúdo principal */
     main {
       flex: 1;
       padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      width: 100%;
     }
 
-    /* Seções */
-    section {
-      margin-bottom: 20px;
+    section + section {
+      margin-top: 30px;
     }
 
     h2 {
       color: #007bff;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      font-size: 1.4em;
     }
 
     ul {
-      list-style-type: none;
+      list-style: none;
       padding: 0;
     }
 
     li {
-      margin: 8px 0;
+      margin-bottom: 10px;
     }
 
     a {
-      text-decoration: none;
-      color: #fff;
-      background-color: #28a745;
-      padding: 10px;
-      border-radius: 5px;
-      display: inline-block;
+      display: block;
       width: 100%;
+      background-color: #28a745;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 5px;
       text-align: center;
+      font-size: 1.1em;
+      transition: background-color 0.3s;
     }
 
     a:hover {
       background-color: #218838;
     }
 
-    /* Rodapé */
     footer {
       background-color: #007bff;
-      color: white;
+      color: #fff;
       text-align: center;
-      padding: 10px 0;
+      padding: 15px 10px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Contatos de Emergência - Carapicuíba</h1>
+  <h1>Contatos de Emergência – Carapicuíba</h1>
 </header>
 
 <main>
   <section>
     <h2>Emergências Gerais</h2>
     <ul>
-      <li><a href="tel:190">Polícia Militar - 190</a></li>
-      <li><a href="tel:192">SAMU - 192</a></li>
-      <li><a href="tel:193">Corpo de Bombeiros - 193</a></li>
-      <li><a href="tel:197">Polícia Civil - 197</a></li>
-      <li><a href="tel:199">Defesa Civil - 199</a></li>
-      <li><a href="tel:100">Disque Direitos Humanos - 100</a></li>
-      <li><a href="tel:180">Delegacia da Mulher - 180</a></li>
-      <li><a href="tel:181">Disque Denúncia - 181</a></li>
-      <li><a href="tel:188">CVV - Apoio Emocional - 188</a></li>
+      <li><a href="tel:190">Polícia Militar – 190</a></li>
+      <li><a href="tel:192">SAMU – 192</a></li>
+      <li><a href="tel:193">Corpo de Bombeiros – 193</a></li>
+      <li><a href="tel:197">Polícia Civil – 197</a></li>
+      <li><a href="tel:199">Defesa Civil – 199</a></li>
+      <li><a href="tel:100">Direitos Humanos – 100</a></li>
+      <li><a href="tel:180">Delegacia da Mulher – 180</a></li>
+      <li><a href="tel:181">Disque Denúncia – 181</a></li>
+      <li><a href="tel:188">CVV – Apoio Emocional – 188</a></li>
     </ul>
   </section>
 
   <section>
     <h2>Hospitais e Unidades de Saúde</h2>
     <ul>
-      <li><a href="tel:41858555">Hospital Central Oeste - (11) 4185-8555</a></li>
-      <li><a href="tel:40838600">AME Carapicuíba - (11) 4083-8600</a></li>
-      <li><a href="tel:41853187">Pronto Socorro Cohab II - (11) 4185-3187</a></li>
-      <li><a href="tel:40901740">Centro Clínico Carapicuíba - (11) 4090-1740</a></li>
+      <li><a href="tel:1141858555">Hospital Central Oeste – (11) 4185-8555</a></li>
+      <li><a href="tel:1140838600">AME Carapicuíba – (11) 4083-8600</a></li>
+      <li><a href="tel:1141853187">Pronto Socorro Cohab II – (11) 4185-3187</a></li>
+      <li><a href="tel:1140901740">Centro Clínico Carapicuíba – (11) 4090-1740</a></li>
     </ul>
   </section>
 
   <section>
     <h2>Serviços Públicos Municipais</h2>
     <ul>
-      <li><a href="tel:115">SABESP - 115</a></li>
-      <li><a href="tel:116">Eletropaulo - 116</a></li>
-      <li><a href="tel:153">Guarda Civil Municipal - 153</a></li>
+      <li><a href="tel:115">SABESP – 115</a></li>
+      <li><a href="tel:116">Eletropaulo – 116</a></li>
+      <li><a href="tel:153">Guarda Civil Municipal – 153</a></li>
     </ul>
   </section>
 
   <section>
     <h2>Prefeitura de Carapicuíba</h2>
     <ul>
-      <li><a href="tel:41844576">Central de Atendimento - (11) 4184-4576</a></li>
+      <li><a href="tel:1141844576">Central de Atendimento – (11) 4184-4576</a></li>
     </ul>
   </section>
 </main>
 
 <footer>
-  <p>&copy; 2025 Contatos de Emergência - Carapicuíba</p>
+  <p>© 2025 Contatos de Emergência – Carapicuíba</p>
 </footer>
 
 </body>
