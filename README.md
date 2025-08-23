@@ -7,11 +7,11 @@ Esta página tem como objetivo facilitar o acesso a contatos de emergência loca
 
 ## Tecnologias Utilizadas
 - HTML5
-- CSS3 (inline ou externo, conforme seu design)
+- CSS3
 
 ## Estrutura do Projeto
 - `index.html` – Página principal com os contatos clicáveis.
-- `styles.css` – Arquivo externo com estilos, se você separou CSS do HTML.
+- `styles.css` – Arquivo externo com estilos,  CSS do HTML.
 - `README.md` – Documentação do projeto.
 
 ## Como Visualizar a Página
